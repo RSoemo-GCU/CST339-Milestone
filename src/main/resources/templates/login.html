@@ -67,7 +67,7 @@
 	
 	<body>
 		<div layout:fragment="content">
-			<form action="#" th:action="@{doLogin}" th:object="${loginModel}"  method="post">
+			<form action="#" th:action="@{/login/}" th:object="${userModel}"  method="post">
 				<div class="imgcontainer">
 					<img th:src="@{/img/login_avatar.png}" alt="Avatar" class="avatar"/>
 				</div>
